@@ -1,3 +1,7 @@
+# Complete Authentication in AdonisJS
+
+Project code after completing tutorial from (TutStack)[https://www.youtube.com/playlist?list=PL9gT3zlT0C1NgCLkyMf-EL9anST6Tl6xW]
+
 # Adonis fullstack application
 
 This is the fullstack boilerplate for AdonisJs, it comes pre-configured with.
