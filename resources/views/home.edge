@@ -1,0 +1,16 @@
+@layout('layout.app')
+
+@section('content')
+@loggedIn
+<p>
+  Welcome <strong>{{ auth.user.username }}!</strong>
+</p>
+@else
+<p>
+  Welcome to <strong>AdonisJS Auth</strong>!
+</p>
+<p>
+Please <a href="{{route('login')}}">login</a> or <a href="{{ route('register') }}">register.</a>
+</p>
+@endloggedIn
+@endsection
